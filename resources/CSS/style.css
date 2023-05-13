@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+  }
+
+body {
+	font-size: 18px;
+	color: grey;
+	font: 15px Tahoma, Helvetica, sans-serif;
+}
+
+h1 {
+	color: #303030;
+	font-size: 2.8rem;
+}
+
+h2 {
+	color: #303030;
+	font-size: 2rem;
+}
+
+h3 {
+	color: black;
+	font-size: 1.7rem;
+}
+
+
+p {
+	font-size: 1.1rem;
+}
+
+header {
+	padding: 18px 24px;
+	display: flex;
+	height: 64px;
+	background-color: #fff;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	line-height: 1.5rem;
+	align-items: center;
+}
+
+.logo h1 {
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+}
+
+span {
+	color: grey;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 16px;
+	color: grey;
+	font-size: 1rem;
+
+}
+
+.nav-mobile {
+	display: none;
+}
+
+/* The banner 1 */
+
+.wrapper {
+	display: flex;
+	background-color: lightgrey;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+}
+
+.wrapper p {
+	font-size: 2rem;
+	color: #303030;
+}
+
+
+.wrapper img {
+	width: 60%;
+	height: auto;
+	object-fit: cover;
+	padding: 32px 24px 32px 24px;
+}
+
+.big-img-text {
+	width: 40%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	padding: 32px 0px 32px 0px;
+
+}
+
+.big-img-text p {
+	padding: 30px 0px;
+}
+
+
+.button {
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: #303030;
+	padding: 8px 0px;
+	font-size: 1.5rem;
+
+}
+
+/* The banner 2 */
+
+.wrapper2 {
+	display: flex;
+	background-color: white;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+/* The banner 2 - left */
+
+.img2 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding: 32px 24px 32px 24px;
+}
+
+.img2 h2 {
+	padding: 32px 0px 24px 0px;
+}
+
+.img2 figcaption {
+	padding: 24px 0px 0px 0px;
+}
+
+/* The banner 2 - right */
+
+.three-boxes {
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	flex-wrap: wrap;
+	width: 40%;
+	min-width: 400px;
+}
+
+.box img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.campus-mob, .orientation-mob, .lecture-mob {
+	display: none;
+}
+
+.box-text {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.box {
+ display: flex;
+ width: 100%;
+}
+
+.box a {
+	color: #266ede;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+
+.box p {
+padding: 8px 0px;
+line-height: 1.5;
+}
+
+
+.box img {
+	padding: 16px 16px 16px 16px; 
+}
+
+#grey {
+	background-color: lightgrey;
+}
+/* The banner 3 */
+
+.wrapper3 {
+	display: flex;
+	background-color: lightgrey;
+	width: 100%;
+	align-items: center;
+	flex-direction:column;
+	justify-content: center;
+}
+
+.wrapper3 h2 {
+	padding-top: 32px;
+}
+
+.six-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 40px 0px 40px;
+	align-items: center;
+	justify-content: center;
+}
+
+.box2 {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	background-color: white;
+	margin: 32px 32px 32px 32px;
+   }
+
+.box2 h3 {
+ padding: 16px 16px 0px 16px;
+}
+
+.box2 h4 {
+	padding: 8px 6px 8px 16px;
+}
+
+.box2 p {
+	padding: 0px 16px 24px 16px;	
+}
+
+/* The banner 4 */
+
+.wrapper4 {
+	display: flex;
+	background-color: white;
+	flex-direction:column;
+	align-items: center;
+	width: 100%;
+}
+
+.vid4 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding: 32px 24px 24px 24px;
+}
+
+.top {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.bottom {
+	display: flex;
+	width: 100%;
+}
+
+.wrapper4 h2 {
+	padding: 32px 0px 32px 0px;
+}
+
+.vid4 h3 {
+	padding: 24px 0px 8px 0px;
+}
+
+.vid4 p {
+	padding: 0px 0px 32px 0px;
+}
+
+.two-boxes {
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	flex-wrap: wrap;
+	width: 40%;
+}
+
+.two-boxes img {
+	width: 35%;
+	height: auto;
+	object-fit: cover;
+}
+
+/* Footer */
+
+footer {
+ display: flex;
+ justify-content: space-between;
+ padding: 16px 24px 16px 24px;
+ border-top: 1px solid lightgrey;
+}
+
+/* NAV BAR MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.logo h1 {
+	display: none;
+	}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.nav-desktop, .logo {
+	display: none;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.nav-mobile {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	}
+
+/* WRAPPER 1 MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.wrapper img {
+		width: 100%;
+		padding: 0px;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.wrapper .big-img-text {
+	width: 100%;
+	margin: 0 auto;
+	}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.big-img-text h1 {
+	padding: 32px 0px 32px 16px;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.big-img-text p {
+	padding: 0px 0px 24px 16px;
+	}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.button {
+	margin: 24px 16px 32px 16px;
+	}
+
+/* WRAPPER 2 MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.img2 {
+	display: none;
+	}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.three-boxes {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 16px 16px;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.three-boxes img, .box {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+		}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.three-boxes .box-text {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 16px 0px 64px 32px;
+		}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.campus-mob, .orientation-mob, .lecture-mob {
+	display: flex;
+	}
+	
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.campus, .orientation, .lecture {
+	display: none;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	#grey {
+		background-color: white;
+		}
+		
+/* WRAPPER 3 MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.wrapper3 {
+		background-color: white;
+		}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.wrapper3 img, .wrapper3 p, .wrapper3 h4 {
+	display: none
+				}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.box2 {
+	background-color: lightgrey;
+	padding: 16px 0px 24px 16px;
+	gap: 8px;
+	width: 100%;
+	margin: 16px 8px;
+	}
+
+/* WRAPPER 3 MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.two-boxes {
+	display: none;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.vid4 {
+	width: 100%;
+	padding: 0px;
+	}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.vid4 h2, .vid4 p {
+	display: none;
+	}
+/* FOOTER MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	footer nav {
+	display: none;
+	}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.trade {
+	padding: 40px 0px 16px;
+	}
+
